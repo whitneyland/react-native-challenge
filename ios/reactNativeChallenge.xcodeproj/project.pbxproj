@@ -12,6 +12,7 @@
 		13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB01A68108700A75B9A /* AppDelegate.mm */; };
 		13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 13B07FB51A68108700A75B9A /* Images.xcassets */; };
 		13B07FC11A68108700A75B9A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 13B07FB71A68108700A75B9A /* main.m */; };
+		510ADA842909BE2A00D9FD4E /* sounds in Resources */ = {isa = PBXBuildFile; fileRef = 510ADA832909BE2A00D9FD4E /* sounds */; };
 		7699B88040F8A987B510C191 /* libPods-reactNativeChallenge-reactNativeChallengeTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 19F6CBCC0A4E27FBF8BF4A61 /* libPods-reactNativeChallenge-reactNativeChallengeTests.a */; };
 		81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -38,6 +39,8 @@
 		13B07FB71A68108700A75B9A /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = reactNativeChallenge/main.m; sourceTree = "<group>"; };
 		19F6CBCC0A4E27FBF8BF4A61 /* libPods-reactNativeChallenge-reactNativeChallengeTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeChallenge-reactNativeChallengeTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3B4392A12AC88292D35C810B /* Pods-reactNativeChallenge.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeChallenge.debug.xcconfig"; path = "Target Support Files/Pods-reactNativeChallenge/Pods-reactNativeChallenge.debug.xcconfig"; sourceTree = "<group>"; };
+		510ADA832909BE2A00D9FD4E /* sounds */ = {isa = PBXFileReference; lastKnownFileType = folder; name = sounds; path = ../src/utils/sounds; sourceTree = "<group>"; };
+		51F015922909BEE700C962CF /* meow.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = meow.mp3; sourceTree = "<group>"; };
 		5709B34CF0A7D63546082F79 /* Pods-reactNativeChallenge.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeChallenge.release.xcconfig"; path = "Target Support Files/Pods-reactNativeChallenge/Pods-reactNativeChallenge.release.xcconfig"; sourceTree = "<group>"; };
 		5B7EB9410499542E8C5724F5 /* Pods-reactNativeChallenge-reactNativeChallengeTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-reactNativeChallenge-reactNativeChallengeTests.debug.xcconfig"; path = "Target Support Files/Pods-reactNativeChallenge-reactNativeChallengeTests/Pods-reactNativeChallenge-reactNativeChallengeTests.debug.xcconfig"; sourceTree = "<group>"; };
 		5DCACB8F33CDC322A6C60F78 /* libPods-reactNativeChallenge.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-reactNativeChallenge.a"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -116,6 +119,8 @@
 		83CBB9F61A601CBA00E9B192 = {
 			isa = PBXGroup;
 			children = (
+				51F015922909BEE700C962CF /* meow.mp3 */,
+				510ADA832909BE2A00D9FD4E /* sounds */,
 				13B07FAE1A68108700A75B9A /* reactNativeChallenge */,
 				832341AE1AAA6A7D00B99B32 /* Libraries */,
 				00E356EF1AD99517003FC87E /* reactNativeChallengeTests */,
@@ -244,6 +249,7 @@
 			files = (
 				81AB9BB82411601600AC10FF /* LaunchScreen.storyboard in Resources */,
 				13B07FBF1A68108700A75B9A /* Images.xcassets in Resources */,
+				510ADA842909BE2A00D9FD4E /* sounds in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
