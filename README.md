@@ -16,6 +16,7 @@ Welcome! This repo should be used to complete the React Native portion of take h
 This repo was built with node v18.4.0, Ruby v2.7.5, npm v8.15.0, yarn 1.22.19.
 
 ‼ Please use v1.32.0 of the FullStory SDK.
+
 ⚠️ If you don’t have access to a Mac, please complete the exercise for Android only.
 
 ## Instructions
