@@ -9,11 +9,14 @@ Welcome! This repo should be used to complete the React Native portion of take h
 - [Android Studio](https://developer.android.com/studio)
 - [Xcode](https://developer.apple.com/xcode)
 - [CocoaPods](https://cocoapods.org/)
+- [React Native](https://reactnative.dev/docs/environment-setup)
+    - FullStory does not support Expo Go. Please use the React Native CLI.
 
 #### Environment
 This repo was built with node v18.4.0, Ruby v2.7.5, npm v8.15.0, yarn 1.22.19.
 
 ‼ Please use v1.32.0 of the FullStory SDK.
+⚠️ If you don’t have access to a Mac, please complete the exercise for Android only.
 
 ## Instructions
 
@@ -32,6 +35,6 @@ This repo was built with node v18.4.0, Ruby v2.7.5, npm v8.15.0, yarn 1.22.19.
 6. Provide a link to your fork or branch along with a session URL for each platform.
 
 ## Some notes
-- Don't worry about the app's functionality. It should be minimally interactive, but clicking on the cat doesn't *actually* make it play a sound right now.
+- Don't worry about the app's functionality. It should be minimally interactive, but clicking on the cat doesn't *actually* make it play a sound right now. 😿
 - Try not to spend more than 2 days on this exercise.
 - Reference our [knowledge base](https://help.fullstory.com/hc/en-us/categories/4412779509911-FullStory-for-Mobile-Apps) and [developer site](https://developer.fullstory.com/) for guidance.
