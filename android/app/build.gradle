@@ -1,5 +1,11 @@
 apply plugin: "com.android.application"
 
+apply plugin: "fullstory"
+
+fullstory {
+    org 'o-1EJJEX-na1'
+}
+
 import com.android.build.OutputFile
 import org.apache.tools.ant.taskdefs.condition.Os
 
