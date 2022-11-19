@@ -890,7 +890,7 @@
     "@babel/parser" "^7.0.0"
     "@babel/types" "^7.0.0"
 
-"@fullstory/react-native@^1.1.1":
+"@fullstory/react-native@^1.0.3":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@fullstory/react-native/-/react-native-1.1.1.tgz#6d1a6a52b434727173d44d4b5f336ac900057546"
   integrity sha512-2Ou9JZSgCr4WnBZwoS/wMDci9OfWdmRkZLDF+b3Ed6s4xdKwe4aPclOXPSaKZj4xwMshrZKD1VmTLrj/QdT9bw==
