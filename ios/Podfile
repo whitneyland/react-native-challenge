@@ -7,7 +7,7 @@ platform :ios, '12.4'
 
 target 'reactNativeChallenge' do
   pod 'FullStory', :http => 'https://ios-releases.fullstory.com/fullstory-1.15.1.tar.gz'
-
+  pod 'fullstory_react-native', :path => '../node_modules/@fullstory/react-native'
 
   config = use_native_modules!
 
