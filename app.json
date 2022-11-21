@@ -1,4 +1,16 @@
 {
   "name": "reactNativeChallenge",
-  "displayName": "reactNativeChallenge"
+  "displayName": "reactNativeChallenge",
+  "expo": {
+    "plugins": [
+      [
+        "@fullstory/react-native",
+        {
+          "version": "1.1.1",
+          "org": "o-1EJJEX-na1"
+        }
+      ]
+    ]
+  }
 }
+
